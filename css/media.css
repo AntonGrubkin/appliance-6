@@ -1,0 +1,1025 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .stick-block-phone {
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 777;
+        display: block;
+        
+    }
+
+    .btns-stick{
+        display: flex;
+        justify-content: center;  
+    }
+
+    /*-----------------------------navigation----------------------------*/
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #626262;
+    }
+    .nav-menu li a:hover{
+        color: #646464;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    /*-----------------------------welcome--------------*/
+
+    h2{
+        font-size: 70px;
+        line-height: 82px;
+        margin-bottom: 27px;
+    }
+
+    .general-welcome{
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descript-block{
+        text-align: center;
+    }
+
+    /*-----------------------------appliance-list--------------*/
+
+    .general-appliance{
+        justify-content: center;
+    }
+
+    /*-----------------------------why-us--------------*/
+
+    .first-block {
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .second-block {
+        gap: 60px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .tittle-list{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .description-list{
+        text-align: center;
+    }
+
+    .banner-premium{
+        width: 100%;
+    }
+    .banner-first-client{
+        width: 100%;
+    }
+    .banner-senior{
+        width: 100%;
+    }
+    .description-offer{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .block-brand{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .list-brands{
+        text-align: center;
+    }
+
+    .general-warranty{
+        flex-direction: column;
+    }
+
+    .flexible-block-general {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .text-flexible {
+        gap: 17px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .flexible h2 {
+        margin-bottom: 32px;
+    }
+
+    .pic-flexible{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic-flexible{
+        display: none;
+    }
+
+    .general-appliance-discount {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .theme-appliance {
+        width: 330px;
+    }
+
+    .pic-theme-appliance img{
+        width: 100%;
+    }
+
+    .general-reviews {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .general-contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-pic {
+        right: 0;
+    }
+
+    .map-pic img{
+        max-width: 100%;
+    }
+
+    .pic-blog img{
+        width: 100%;
+    }
+
+    .welcome {
+        padding: 80px 0;
+    }
+
+    .appliance-list {
+        padding: 80px 0;
+    }
+
+    .btns-content {
+        margin-top: 55px;
+    }
+
+    .general-appliance {
+        margin-top: 50px;
+    }
+
+    .why-us {
+        padding: 70px 0;
+    }
+
+    .promo {
+        padding: 80px 0;
+    }
+
+    .general-banners-block{
+        text-align: center;
+    }
+
+    .list-apliance-repair {
+        gap: 70px;
+    }
+
+    .brands {
+        padding: 80px 0;
+    }
+
+    .emergency {
+        padding: 80px 0;
+    }
+
+    .pic-tech{
+        display: none;
+    }
+
+    .testimonials h2 {
+        margin-bottom: 50px;
+    }
+
+    .text-block-warranty {
+        padding: 80px 0;
+    }
+
+    .testimonials {
+        padding: 80px 0;
+    }
+
+    .flexible {
+        padding: 80px 0;
+    }
+
+    .appliance-discount {
+        padding: 80px 0;
+    }
+
+    .contacts {
+        padding: 80px 0;
+    }
+
+    .contacts h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .blog h2 {
+        margin-bottom: 45px;
+    }
+
+    .blog {
+        padding: 80px 0;
+    }
+
+    .priv {
+        width: 290px;
+        justify-content: center;
+    }
+
+    .general-privelegy {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .btns-theme-appliance {
+        margin-top: 50px;
+    }
+
+    .appliance-discount h2 {
+        margin-bottom: 40px;
+    }
+
+    .general-ftr{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .container-links{
+        width: 40%;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form span{
+        display: flex;
+        justify-content: center;
+    }
+
+    a.bth-send{
+        width: 100%;
+    }
+
+    .pic-inner-problem-mobile{
+        display: none;
+    }
+
+    .pic-inner-page-problem img{
+        width: 100%;
+    }
+
+    .general-types {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-device-width: 768px){
+    .blog-item:nth-child(3){
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-device-width: 350px) and (max-device-width: 767px){
+    .stick-block-phone {
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 777;
+        display: block;
+    }
+
+    .btns-stick{
+        display: flex;
+        justify-content: center;  
+    }
+
+    .btns-stick a{
+        background-color: #507AB9;
+        width: 240px;
+        padding: 18px 20px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    /*-----------------------------navigation----------------------------*/
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #626262;
+    }
+    .nav-menu li a:hover{
+        color: #646464;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    /*-----------------------------welcome--------------*/
+
+    h2{
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 27px;
+    }
+
+    .slogan span:nth-child(2){
+        color: #FFFFFF;
+        font-size: 27px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+
+    .welc-photo img{
+        width: 100%;
+    }
+
+    .general-welcome{
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descript-block{
+        text-align: center;
+    }
+
+    .general-social {
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .general-social img:nth-child(5){
+        display: none;
+    }
+
+    /*-----------------------------appliance-list--------------*/
+
+    .general-appliance{
+        justify-content: center;
+    }
+
+    /*-----------------------------why-us--------------*/
+
+    .first-block {
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .second-block {
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .pic-brand img{
+        width: 100%;
+    }
+
+    .tittle-list{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .description-list{
+        text-align: center;
+    }
+
+    .banner-premium{
+        width: 100%;
+    }
+    .banner-first-client{
+        width: 100%;
+    }
+    .banner-senior{
+        width: 100%;
+    }
+    .description-offer{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .block-brand{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .list-brands{
+        text-align: center;
+    }
+
+    .general-warranty{
+        flex-direction: column;
+    }
+
+    .flexible-block-general {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .text-flexible {
+        gap: 17px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .flexible h2 {
+        margin-bottom: 32px;
+    }
+
+    .pic-flexible{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic-flexible{
+        display: none;
+    }
+
+    .general-appliance-discount {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .theme-appliance {
+        width: 100%;
+    }
+
+    .pic-theme-appliance img{
+        width: 100%;
+    }
+
+    .general-reviews {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .general-contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-pic {
+        right: 0;
+    }
+
+    .map-pic img{
+        max-width: 100%;
+    }
+
+    .pic-blog img{
+        width: 100%;
+    }
+
+    .welcome {
+        padding: 80px 0;
+    }
+
+    .appliance-list {
+        padding: 80px 0;
+    }
+
+    .btns-content {
+        flex-wrap: wrap;
+        margin-top: 55px;
+    }
+
+    .btns-content a{
+        width: 100%;
+    }
+
+    .general-appliance {
+        margin-top: 50px;
+    }
+
+    .why-us {
+        padding: 70px 0;
+    }
+
+    .promo {
+        padding: 80px 0;
+    }
+
+    .general-banners-block{
+        text-align: center;
+    }
+
+    .list-apliance-repair {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px 30px;
+        justify-content: space-between;
+    }
+
+    .emergency h2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .block-text-container {
+        margin-bottom: 35px;
+    }
+
+    .btns-warranty {
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .btns-warranty a{
+        width: 100%;
+    }
+
+    .brands {
+        padding: 80px 0;
+    }
+
+    .list-warranty ul {
+        gap: 20px;
+    }
+
+    .list-warranty ul li {
+        line-height: 25px;
+    }
+
+    .banner-premium {
+        padding: 70px 28px;
+    }
+
+    .banner-premium span {
+        box-shadow: -15px 0 0 #507ab9, 15px 0 0 #507ab9;
+    }
+
+    .banner-first-client {
+        padding: 70px 28px;
+    }
+
+    .banner-first-client span {
+        box-shadow: -25px 0 0 #B65540, 25px 0 0 #B65540;
+    }
+
+    .banner-senior {
+        padding: 70px 28px;
+    }
+
+    .banner-senior span {
+        box-shadow: -25px 0 0 #63A54C, 25px 0 0 #63A54C;
+    }
+
+
+    .emergency {
+        padding: 80px 0;
+    }
+
+    .btns-theme-appliance {
+        flex-wrap: wrap;
+        margin-top: 45px;
+    }
+
+    .btns-theme-appliance a{
+        width: 100%;
+    }
+
+    .pic-tech{
+        display: none;
+    }
+
+    .contacts-block {
+        padding: 37px 35px;
+        width: 100%;
+    }
+
+    .map-pic {
+        right: 0;
+        width: 100%;
+    }
+
+    .contacts-block {
+        padding: 40px 35px;
+        width: 290px;
+    }
+
+    .contacts-block ul {
+        gap: 15px;
+    }
+
+    .contacts-block {
+        padding: 40px 35px;
+        width: 290px;
+        margin-top: 290px;
+    }
+
+    .contact-block-name span {
+        line-height: 35px;
+    }
+
+    .map-pic img{
+        width: 100%;
+    }
+
+    .testimonials h2 {
+        margin-bottom: 50px;
+    }
+
+    .text-block-warranty {
+        padding: 80px 0;
+    }
+
+    .testimonials {
+        padding: 80px 0;
+    }
+
+    .flexible {
+        padding: 80px 0;
+    }
+
+    .appliance-discount {
+        padding: 80px 0;
+    }
+
+    .contacts {
+        padding: 80px 0;
+    }
+
+    .contacts h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .blog h2 {
+        margin-bottom: 45px;
+    }
+
+    .blog {
+        padding: 190px 0 80px 0;
+    }
+
+    .priv {
+        width: 150px;
+        gap: 12px;
+    }
+
+    .priv span {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+    }
+
+    .general-warranty h2{
+        text-align: center;
+    }
+
+    .general-privelegy {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .btns-theme-appliance {
+        margin-top: 50px;
+    }
+
+    .appliance-discount h2 {
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 59px;
+    }
+
+    .slogan {
+        padding: 140px 0;
+    }
+
+    .general-blog {
+        grid-gap: 40px;
+    }
+
+
+    .container-links{
+        display: none;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form span{
+        display: flex;
+        justify-content: center;
+    }
+
+    a.bth-send{
+        width: 100%;
+    }
+
+    .blog-item:nth-child(3){
+        display: block;
+    }
+
+    h3{
+        font-size: 40px;
+        line-height: 53px;
+    }
+
+    .descript-block-iiner h3{
+        margin-bottom: 29px;
+    }
+
+    .general-first-block{
+        flex-wrap: wrap;
+        gap: 55px;
+    }
+
+    .btns-inner-page{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .btns-inner-page a{
+        width: 100%;
+    }
+
+    .inner-man-photo{
+        width: 100%;
+    }
+
+    .descript-block-iiner{
+        width: 100%;
+        text-align: center;
+    }
+
+    .block-description-section{
+        padding: 70px 0;
+    }
+
+    .general-types {
+        grid-template-columns: 1fr;
+        text-align: center;
+
+    }
+
+    .types{
+        padding: 70px 0;
+    }
+
+    .pic-inner-page-problem{
+        display: none;
+    }
+
+    .pic-inner-problem-mobile{
+        display: block;
+    }
+
+    .pic-content-issues img{
+        width: 100%;
+    }
+
+    .pic-content-issues{
+        margin: 25px 0 20px 0;
+    }
+
+    .pic-inner-problem-mobile img{
+        width: 100%;
+    }
+
+    .pic-inner-problem-mobile{
+        margin-bottom: 28px;
+    }
+
+    .common-problem{
+        padding: 70px 0 35px 0;
+    }
+
+    .tittle-problem span {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .tittle-problem {
+        text-align: center;
+        margin: 40px 0 30px 0;
+    }
+
+    .par-first {
+        background: #F5F7FB;
+        padding: 35px;
+    }
+
+    .par-second {
+        padding: 35px;
+    }
+
+    dt {
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .inner-page-brands p {
+        padding: 0;
+    }
+
+    .inner-page-brands {
+        padding: 70px 0;
+    }
+
+    .block-inner-brands {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .inner-page-brands p{
+        text-align: start;
+    }
+
+    .inner-page-brands h3{
+        text-align: start;
+    }
+
+    .brand-item {
+        width: 160px;
+    }
+
+    .general-how-long {
+        gap: 25px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .how-long {
+        padding: 70px 0;
+    }
+
+    .contacts {
+        padding: 70px 0;
+    }
+
+    .block-areas{
+        margin-top: 240px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .pic-content-issues{
+        display: block;
+    }
+
+}
+
+
+
+
